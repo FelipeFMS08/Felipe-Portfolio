@@ -14,6 +14,7 @@ import {
   Languages,
 } from "lucide-react";
 import Link from "next/link";
+import { Navigation } from "../ui/navigation";
 
 interface HeaderProps {
   lang: "pt" | "en";
@@ -92,12 +93,20 @@ export function Header({ lang, toggleLanguage, darkMode, toggleTheme }: HeaderPr
       }`}
     >
       <div className="flex items-center justify-between">
-        <div>
+        <motion.div
+          initial={{ opacity: 0, x: -20 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6 }}
+        >
           <h1 className="text-4xl font-bold text-white">
             Felipe Messias<span className="text-red-500">.</span>
           </h1>
           <p className="text-sm text-zinc-400">{t[lang].devStack}</p>
-        </div>
+        </motion.div>
+        
+        {/* Desktop Navigation */}
+        <Navigation lang={lang} />
+        
         <div className="flex items-center gap-4">
           <LanguageToggle />
           <button

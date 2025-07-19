@@ -32,7 +32,7 @@ export const t = {
     education: "Education",
     devMobile: "Web Developer Intern",
     devStack: "Software Developer",
-    feedbacks: "Depoimentos",
+    feedbacks: "Testimonials",
     contactFormTitle: "Have a project? Let’s work together!",
     contactFormDesc:
       "Fill the form below and I’ll get back to you as soon as possible.",
