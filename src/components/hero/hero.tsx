@@ -30,14 +30,12 @@ export function Hero({ lang }: { lang: "pt" | "en" }) {
         >
           <span className="inline-flex items-center gap-2 px-4 py-2 text-sm rounded-full bg-green-600/20 text-green-400 border border-green-600/30">
             <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-            {lang === 'pt' ? 'Disponível para novos projetos' : 'Available for new projects'}
+            {lang === 'pt' ? 'Novo freelancer - Disponível' : 'New freelancer - Available'}
           </span>
-          <div className="flex items-center gap-1">
-            {[...Array(5)].map((_, i) => (
-              <Star key={i} size={16} className="text-yellow-500 fill-current" />
-            ))}
-            <span className="text-sm text-zinc-400 ml-2">5.0 (50+ {lang === 'pt' ? 'avaliações' : 'reviews'})</span>
-          </div>
+          <span className="inline-flex items-center gap-2 px-4 py-2 text-sm rounded-full bg-blue-600/20 text-blue-400 border border-blue-600/30">
+            <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+            {lang === 'pt' ? '3+ anos de experiência' : '3+ years experience'}
+          </span>
         </motion.div>
         
         {/* Main Heading */}
@@ -71,15 +69,15 @@ export function Hero({ lang }: { lang: "pt" | "en" }) {
         >
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-            {lang === 'pt' ? 'Entrega em 30 dias' : 'Delivery in 30 days'}
+            {lang === 'pt' ? 'Comunicação clara' : 'Clear communication'}
           </div>
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-            {lang === 'pt' ? 'Suporte 24/7' : '24/7 Support'}
+            {lang === 'pt' ? 'Preços competitivos' : 'Competitive prices'}
           </div>
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-            {lang === 'pt' ? 'Garantia de qualidade' : 'Quality guarantee'}
+            {lang === 'pt' ? 'Código limpo' : 'Clean code'}
           </div>
         </motion.div>
         
@@ -113,16 +111,16 @@ export function Hero({ lang }: { lang: "pt" | "en" }) {
           className="mt-12 flex items-center gap-8 text-sm text-zinc-500"
         >
           <div>
-            <div className="text-2xl font-bold text-white">50+</div>
-            <div>{lang === 'pt' ? 'Projetos entregues' : 'Projects delivered'}</div>
+            <div className="text-2xl font-bold text-white">15+</div>
+            <div>{lang === 'pt' ? 'Projetos pessoais' : 'Personal projects'}</div>
           </div>
           <div>
-            <div className="text-2xl font-bold text-white">5+</div>
+            <div className="text-2xl font-bold text-white">3+</div>
             <div>{lang === 'pt' ? 'Anos de experiência' : 'Years of experience'}</div>
           </div>
           <div>
-            <div className="text-2xl font-bold text-white">100%</div>
-            <div>{lang === 'pt' ? 'Clientes satisfeitos' : 'Satisfied clients'}</div>
+            <div className="text-2xl font-bold text-white">New</div>
+            <div>{lang === 'pt' ? 'Freelancer' : 'Freelancer'}</div>
           </div>
         </motion.div>
       </motion.section>

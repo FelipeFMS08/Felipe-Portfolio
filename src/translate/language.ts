@@ -13,23 +13,20 @@ export const t = {
     
     // About Section
     aboutTitle: "Sobre Mim",
-    aboutDescription: "Sou um desenvolvedor full stack apaixonado por criar soluções digitais inovadoras que geram resultados reais para meus clientes. Com mais de 5 anos de experiência, especializo-me em desenvolver aplicações web e mobile modernas, escaláveis e focadas na experiência do usuário.",
-    aboutExperience: "Trabalho com as tecnologias mais atuais do mercado e tenho um histórico comprovado de entrega de projetos no prazo e dentro do orçamento. Meu foco é sempre entender profundamente as necessidades do seu negócio para criar soluções personalizadas.",
+    aboutDescription: "Sou um desenvolvedor full stack apaixonado por criar soluções digitais que resolvem problemas reais. Com 3+ anos de experiência em desenvolvimento de software, estou começando minha jornada no mundo freelance, trazendo conhecimento técnico sólido e dedicação total aos projetos.",
+    aboutExperience: "Trabalho com as tecnologias mais modernas do mercado e tenho experiência em projetos pessoais e profissionais. Como novo freelancer, ofereço atenção personalizada, comunicação clara e preços competitivos para construir relacionamentos duradouros com meus clientes.",
     yearsExp: "Anos de Experiência",
     projectsCompleted: "Projetos Concluídos",
-    clientSatisfaction: "Satisfação do Cliente",
+    freelancer: "Freelancer",
     
     // Services Section
     services: "Serviços",
     webDevelopment: "Desenvolvimento Web",
-    webDevDesc: "Sites e aplicações web responsivas, rápidas e otimizadas para conversão.",
-    webDevPrice: "A partir de R$ 2.500",
+    webDevDesc: "Sites e aplicações web responsivas, rápidas e otimizadas para seu negócio.",
     mobileDevelopment: "Desenvolvimento Mobile",
-    mobileDevDesc: "Apps nativos e híbridos para iOS e Android com performance superior.",
-    mobileDevPrice: "A partir de R$ 5.000",
+    mobileDevDesc: "Apps nativos e híbridos para iOS e Android com foco na experiência do usuário.",
     backendDevelopment: "Desenvolvimento Backend",
     backendDevDesc: "APIs robustas, bancos de dados otimizados e arquitetura escalável.",
-    backendDevPrice: "A partir de R$ 3.000",
     
     // Service Features
     responsiveDesign: "Design Responsivo",
@@ -105,23 +102,20 @@ export const t = {
     
     // About Section
     aboutTitle: "About Me",
-    aboutDescription: "I'm a full stack developer passionate about creating innovative digital solutions that generate real results for my clients. With over 5 years of experience, I specialize in developing modern, scalable web and mobile applications focused on user experience.",
-    aboutExperience: "I work with the latest market technologies and have a proven track record of delivering projects on time and within budget. My focus is always to deeply understand your business needs to create customized solutions.",
+    aboutDescription: "I'm a full stack developer passionate about creating digital solutions that solve real problems. With 3+ years of software development experience, I'm starting my freelance journey, bringing solid technical knowledge and total dedication to projects.",
+    aboutExperience: "I work with modern technologies and have experience in personal and professional projects. As a new freelancer, I offer personalized attention, clear communication, and competitive prices to build lasting relationships with my clients.",
     yearsExp: "Years of Experience",
     projectsCompleted: "Projects Completed",
-    clientSatisfaction: "Client Satisfaction",
+    freelancer: "Freelancer",
     
     // Services Section
     services: "Services",
     webDevelopment: "Web Development",
-    webDevDesc: "Responsive, fast and conversion-optimized websites and web applications.",
-    webDevPrice: "Starting at $500",
+    webDevDesc: "Responsive, fast websites and web applications optimized for your business.",
     mobileDevelopment: "Mobile Development",
-    mobileDevDesc: "Native and hybrid apps for iOS and Android with superior performance.",
-    mobileDevPrice: "Starting at $1,000",
+    mobileDevDesc: "Native and hybrid apps for iOS and Android focused on user experience.",
     backendDevelopment: "Backend Development",
     backendDevDesc: "Robust APIs, optimized databases and scalable architecture.",
-    backendDevPrice: "Starting at $600",
     
     // Service Features
     responsiveDesign: "Responsive Design",
